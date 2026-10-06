@@ -22,6 +22,9 @@ A borrowed book is unavailable until it is returned.
 1. Run the application (Run As > Spring Boot App).
 2. Open Swagger UI: http://localhost:8083/swagger-ui/index.html
 
+## Preview
+![Swagger UI](docs/swagger.png)
+
 ## API Endpoints
 | Method | URL | Description |
 |---|---|---|
