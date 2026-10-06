@@ -22,7 +22,7 @@ public class Livre {
     private String auteur;
 
     @NotNull(message="l'annee de sortie doit etre obligatoire")
-    @Min(value= 1000 , message="l'annee de sortie doit etre superieur ou egale à1000") 
+    @Min(value= 1000 , message="l'annee de sortie doit etre superieur ou egale à 1000") 
     private Integer anneeSortie;
 
     private boolean emprunte = false;
@@ -54,7 +54,7 @@ public class Livre {
         this.anneeSortie = anneeSortie;
     }
 
-    public boolean isEmprunte() {
+    public boolean isEmprunte() {// pourquoi ici on a pas plutot ecrit getEmprunt?
         return emprunte;
     }
 

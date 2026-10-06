@@ -32,7 +32,9 @@ public class LivreService {
     // Ajouter : on range un nouveau livre dans le classeur.
     // save() crée la fiche et lui donne automatiquement un id.
     public Livre ajouter(Livre livre) {
+    	 livre.setEmprunte(false);
         return livreRepository.save(livre);
+       
     }
 
     // Modifier : on retrouve le livre, puis on change SEULEMENT
